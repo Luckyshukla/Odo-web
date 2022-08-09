@@ -1,7 +1,57 @@
+/* @import url(Fonts/SharpSansNo1-Bold.ttf); */
+@font-face {
+    src: url(Fonts/SharpSansNo1-Bold.ttf);
+    font-family:Sharp Sans No1;
+}
 :root{
     --black: #000000;
-    
+    --font-color:#ffffff;
+    --font-size-para:24px;
+    --font-size-heading:73px;
 }
+
 .container{
-max-width: 1200;
+    font-family: Sharp Sans No1;
+}
+
+.game-inro{
+    display: flex;
+    height: max-content;
+    background-color: var(--black);
+    color: var(--font-color);
+    /* width: 100%; */
+}
+.game-intro-text{
+    /* max-width: 1200; */
+    float: left;
+    width: 400px;
+    margin-left: 90px;
+}
+.story-secton{
+    position: relative;
+}
+.story-text{
+    position: absolute;
+    /* font-family: Sharp Sans No1; */
+
+    /* float: left; */
+  bottom: 20px;
+  right: 0;
+  color: var(--font-color);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.story-text h1{
+    /* font-family: Sharp Sans No1 ;  */
+
+    width: 300px;
+}
+.story-text p{
+    width: 450px;
+}
+.app-store{
+    background-color: var(--black);
+    display: flex;
+    height: 500;
+    width: 100%;
 }
